@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Présentation du projet Drive - Mohammad Harris</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(120deg, #a18cd1 0%, #fbc2eb 100%);
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      color: #2d225a;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px 0 rgba(99,102,241,0.10);
+      padding: 40px 32px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5em;
+      color: #7c3aed;
+    }
+    h2 {
+      color: #6d28d9;
+      margin-top: 2em;
+      font-size: 1.5rem;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin: 32px 0;
+      justify-content: center;
+    }
+    .images img {
+      border-radius: 12px;
+      box-shadow: 0 4px 16px 0 rgba(124,58,237,0.10);
+      max-width: 100%;
+      width: 270px;
+      background: #f3f0fa;
+      border: 1px solid #e0d7fa;
+    }
+    .caption {
+      text-align: center;
+      font-size: 0.98em;
+      color: #5b4b8a;
+      margin-top: 8px;
+      margin-bottom: 24px;
+    }
+    ul {
+      margin-left: 1.5em;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 18px 4vw; }
+      .images { flex-direction: column; align-items: center; }
+      .images img { width: 98vw; max-width: 400px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Projet Drive</h1>
+    <p>
+      <strong>Drive</strong> est une application de type mini-cloud développée en C# avec WPF, permettant de stocker, organiser et partager des fichiers de façon simple et intuitive. Ce projet m'a permis de mettre en pratique la programmation orientée objet, la gestion des fichiers, ainsi que la création d'une interface utilisateur moderne.
+    </p>
+    <h2>Fonctionnalités principales</h2>
+    <ul>
+      <li>Authentification sécurisée (inscription, connexion)</li>
+      <li>Création d'espaces, de dossiers et ajout de documents</li>
+      <li>Tableau de bord avec statistiques (espaces, fichiers, favoris)</li>
+      <li>Gestion des fichiers : ajout, modification, suppression, téléchargement</li>
+      <li>Interface ergonomique et responsive</li>
+    </ul>
+    <h2>Captures d'écran</h2>
+    <div class="images">
+      <div>
+        <img src="drive-login.png" alt="Page de connexion du Drive">
+        <div class="caption">Page de connexion : authentification et inscription</div>
+      </div>
+      <div>
+        <img src="drive-dashboard.png" alt="Tableau de bord du Drive">
+        <div class="caption">Tableau de bord : aperçu des espaces, fichiers et favoris</div>
+      </div>
+      <div>
+        <img src="drive-espace.png" alt="Gestion d'un espace dans le Drive">
+        <div class="caption">Gestion d'un espace : dossiers, fichiers, actions (télécharger, modifier, supprimer)</div>
+      </div>
+    </div>
+    <h2>Compétences mobilisées</h2>
+    <ul>
+      <li>Programmation orientée objet en C#</li>
+      <li>Développement d'interfaces avec WPF</li>
+      <li>Gestion de fichiers et de dossiers</li>
+      <li>Expérience utilisateur (UX/UI)</li>
+    </ul>
+    <h2>Bilan</h2>
+    <p>
+      Ce projet m'a permis de progresser en C#, de découvrir le développement d'applications desktop modernes et de mieux comprendre les enjeux de la gestion de fichiers et de la sécurité des données. Il constitue une base solide pour de futurs projets plus complexes.
+    </p>
+  </div>
+</body>
+</html> 
